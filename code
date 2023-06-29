@@ -1,0 +1,12 @@
+:
+#Coverting the numercial Variable into Catogerical
+def Chest_Pain(row):
+ if row==1:
+ return 'typical angina'
+ if row==2:
+ return 'atypical angina'
+ if row==3:
+ return 'non-anginal'
+ elif row==4:
+ return 'asymptomatic'
+
