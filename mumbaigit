@@ -1,0 +1,5 @@
+#Adding column into New Dataframe
+df1['category_1']=catsplit['category_1']
+df1['category_2']=catsplit['category_2']
+df1.drop(columns='category',inplace=True)
+df
